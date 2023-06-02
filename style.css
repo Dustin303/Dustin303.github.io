@@ -1,0 +1,237 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Century Gothic', 'Segoe UI', Tahoma, Geneva;
+    text-align: justify;
+    background-image: linear-gradient(to bottom, rgba(252, 0, 0, 0.601), rgba(0, 252, 55, 0.81), rgba(40,165,248));
+    margin : 0;
+    padding : 0;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    list-style: none;
+}
+
+nav {
+    text-align: right;
+    position: fixed;
+    top: 0;
+    left : 0%;
+    width: 100%;
+    opacity: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    color: #ff5800;
+    
+}
+
+.logo {
+    position :fixed;
+    cursor: pointer;
+    top: -4%;
+    left: 0.5%;
+    height: 28px;
+    width: 30px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    overflow: visible;
+    height: 650px;
+    position: relative;
+    z-index: -1;
+    background-image: url('bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+small {
+    color: ghostwhite;
+    z-index: 1;
+    left: auto;
+    top: 550px;
+    position: absolute;
+    font-size : 25px;
+}
+
+h1 {
+    color:white;
+    background-color:black;
+    opacity: 70%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    display: inline-block;
+    position: absolute;
+    top: 250px;
+    left: auto;
+    font-size: 70px;
+    text-align : left;
+}
+
+h2{
+    text-align: center;
+    color: forestgreen;
+}
+
+h4 {
+    text-align: center;
+    font-size: 70px;
+    margin : 0;
+    padding-top : 50px;
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(240,45,253,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    margin-top:30px;
+    border-radius: 50%;
+    overflow: hidden;
+    border:2px solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gambar {
+    float : right;
+    margin-right : 50px;
+    width : 300px;
+    height : 300px;
+}
+
+article{
+    width: 33.33%;
+    padding: 16px;
+    display: table-cell;
+    color: wheat;
+}
+
+article h3 {
+    text-align: center;
+} 
+
+.identitas {
+    color: tomato;
+    font-size: 18px;
+}
+
+form{
+    text-align: center;
+    color: wheat;
+    margin-bottom: -30px;
+}
+
+span {
+    display: block;
+    text-align: center;
+    color: darkslategray;
+}
+
+#Service {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url('bg2.jpg');
+    height : 650px;
+    text-align: center;
+}
+
+#About {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    height : 650px;
+}
+
+#About p {
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+    color: darkslategrey;
+}
+
+#Project {
+    text-align: center;
+    color: darkblue;
+    background-image: url('bg2.jpg');
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height : 650px;
+}
+
+#Contact {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+footer {
+    background-image: url('bg3.jpg');
+    height: 50px;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer p {
+    color: rgb(228, 248, 7);
+    text-size-adjust: 50px;
+}
+
+a:hover {
+    background-color: goldenrod;
+}
+
+a {
+    color: #ff5800;
+}
+
+h3 {
+    text-align: center;
+    color: darkblue;
+}
+
+hr {
+    height: 3px;
+    background-color: darkred;
+    margin : 0;
+    padding-top: 0;
+}
+
+input[type=submit] {
+    background-color: darkblue;
+    color: yellowgreen;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+input[type=submit]:hover {
+    background-color: brown;
+}
+
+label {
+    font-weight: bold;
+}

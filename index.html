@@ -1,12 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Website Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    AH AHHA HHHHH
+	<nav>
+		<ul>
+			<li><strong><a style="text-decoration: none;" href="#Home">Home</a></strong></li>
+			<li><strong><a style="text-decoration: none;" href="#About">About</a></strong></li>
+			<li><strong><a style="text-decoration: none;" href="#Service">Service</a></strong></li>
+			<li><strong><a style="text-decoration: none;" href="#Project">Project</a></strong></li>
+			<li><strong><a style="text-decoration: none;" href="#Contact">Contact</a></strong></li>
+		</ul>
+	<img class = "logo" src="https://cdn-icons-png.flaticon.com/128/10003/10003663.png" alt="logo"/>	
+	</nav>
+
+	<div class="container" id ="wrapper">
+		<div id="Home">
+			<div class="banner">
+				<h4>WELCOME TO MY <br> WEBPAGE</h4>
+				<h1>WEB DESIGNER <br> EXPERT</h1>
+				<small>Menciptakan Website dengan kemasan menarik dan interaktif</small>
+				<img class= "gambar" src="gambar.jpg" />
+			</div>
+		</div>
+	<hr>
+
+	<div id="About">
+		<h2>About Me</h2>
+		<img src="foto buat kuliah.jpg" height="100px" width= auto alt="gambar profil"/>
+		<br>
+		<span class="identitas"><strong>Dustin Ollifian, WEB DESIGNER</strong></span>
+		<p>Saya lahir di Pontianak,Keseharian saya adalah bermain bola basket dan futsal bersama teman-teman.
+			Seorang Web Designer yang dapat membuat website untuk kebutuhan bisnis anda. 
+			Saya siap dalam berinovasi dan berkreasi sesuai dengan kebutuhan bisnis yang semakin berkembang.a
+		</p>
+	</div>
+	<hr>
+
+	<div id="Service">
+		<h2>My Services</h2>
+		<article>
+			<img src="Ide.avif" height="253px" width="341px">
+			<br>
+			<h3>Kreatif & Inovatif</h3>
+			<br>
+			<p>Menciptakan website dengan kreasi dan inovasi yang menarik</p>
+		</article>
+		<article>
+			<img src="Harga.png" height="253px" width="341px">
+			<br>
+			<h3>Harga Terjangkau</h3>
+			<br>
+			<p>Harga menyesuaikan dengan tingkat kesulitan website</p>
+		</article>
+		<article>
+			<img src="Keamanan.png" height="253px" width="341px">
+			<br>
+			<h3>Keamanan Data</h3>
+			<br>
+			<p>Menjaga Keamanan data dan privasi klien</p>
+		</article>
+	</div>
+	<hr>
+
+	<div id="Project">
+		<h2>My Projects</h2>
+		<article>
+			<h3>WEBSITE BISNIS PENJUALAN</h3>
+		</article>
+		<article>
+			<h3>WEBSITE PERBANKAN</h3>
+		</article>
+	</div>	
+	<hr>
+
+	<div id="Contact">
+		<h2>WEB DESIGNER</h2>
+		<span>E-mail : 21430089_dustin_o@widyadharma.ac.id</span>
+		<br>
+		<span>No Contact : 082646287243</span>
+		<br>
+		<span>Instagram : @dustinollifian</span>
+		<br>
+		<h2>Kirim Pesan Ke Saya</h2><br>
+		<form action="submission.html" method="POST">
+			<section class="nama">
+				<label for="nama">Nama</label><br>
+				<input type="text" name="nama" id="nama" placeholder="Masukkan Nama Anda" pattern = "[A-Za-z ]+" style="width:200px" required>
+			</section>
+			<br>
+			<section class="email">
+				<label for="email">E-mail</label><br>
+				<input type="email" name="email" id="email" placeholder="Masukkan Email Anda" style="width:300px">
+			</section>
+			<br>
+			<section class="message">
+				<label for="message">Message</label>
+				<br>
+				<textarea id="message" name="message" rows="10" cols="80" placeholder="Masukkan Pesan Anda"></textarea>
+			</section>
+			<br>
+			<section class="submission">
+				<input type="submit" value="SUBMIT">
+			</section>
+		</form>
+	</div>
+</div>
+</div>
+
+	<footer>
+		<p>Hidup Adalah Sebuah Perjuangan Menuju Kesuksesan</p>
+	</footer>
 </body>
 </html>
