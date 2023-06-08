@@ -139,7 +139,7 @@ article h3 {
 
 .identitas {
     color: tomato;
-    font-size: 18px;
+    font-size: 25px;
 }
 
 form{
@@ -186,6 +186,7 @@ span {
     color: darkslategrey;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    text-shadow: 5px 5px 10px darkorange;
 }
 
 #Contact {
@@ -214,6 +215,7 @@ footer p {
     color: rgb(228, 248, 7);
     text-size-adjust: 50px;
     font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 5px 5px 10px lightgreen, -5px -5px 10px lightcoral;
 }
 
 a:hover {
@@ -259,6 +261,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: brown;
+    animation : pulsate 1s ease-in-out;
 }
 
 label {
@@ -276,6 +279,7 @@ label {
 #Service p {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 5px 5px 10px lightgreen, -5px -5px 10px lightcoral;
 }
 
 .EML {
@@ -315,4 +319,81 @@ label {
     margin-left: 450px;
     margin-top: -15px;
     transform: translateY(26px);
+}
+
+.box{
+    font-size: 35px;
+    font-weight: bold;
+    opacity: 0;
+    position: absolute;
+    width: 100%
+}
+
+.b1 {
+    font-family: Verdana;
+    color:white;
+    font-size: 75px;
+    top: 300px;
+    left: auto;
+    animation: ani1 10s infinite;
+}
+
+.b2 {
+    font-family: Verdana;
+    color:white;
+    font-size: 75px;
+    top: 300px;
+    left: auto;
+    animation: ani2 10s infinite;
+}
+
+.b3 {
+    font-family: Verdana;
+    color:white;
+    font-size: 75px;
+    top: 300px;
+    left: auto;
+    animation: ani3 10s infinite;
+}
+
+@keyframes ani1{
+    10%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+
+@keyframes ani2{
+    50%{
+        opacity: 0;
+    }
+    65%{
+        opacity: 1;
+    }
+    80%{
+        opacity: 0;
+    }
+}
+
+@keyframes ani3{
+    80%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes pulsate {
+    0% {
+        box-shadow: 0 0 25px;
+    }
 }
