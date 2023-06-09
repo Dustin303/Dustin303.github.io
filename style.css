@@ -76,9 +76,8 @@ h1 {
     padding-right: 40px;
     position: absolute;
     top: 1125px;
-    left: 680px;
+    left: 600px;
     font-size: 20px;
-    text-align : center;
     place-items: center;
 }
 
@@ -162,6 +161,14 @@ form{
     text-align: center;
 }
 
+#Project {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url('bg4.jpg');
+    height : 650px;
+    text-align: center;
+}
+
 #Service img {
     height: 200px;
     width: 300px;
@@ -170,6 +177,16 @@ form{
     border-radius: 50px 0 50px 0;
     border-style: solid;
     border-width: 20px;
+}
+#Project img {
+    height: 250px;
+    width: 350px;
+    border-color: #8ebf42 #1c87c9;
+    border-image: none;
+    border-radius: 50px 0 50px 0;
+    border-style: solid;
+    border-width: 20px;
+    overflow: hidden;
 }
 
 #About {
@@ -272,11 +289,18 @@ label {
     font-size: 15px;
     font-weight: bold;
     color:darkcyan;
+    text-shadow: none;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 #Service p {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 5px 5px 10px lightgreen, -5px -5px 10px lightcoral;
+}
+
+#Project p {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: 5px 5px 10px lightgreen, -5px -5px 10px lightcoral;
@@ -413,7 +437,6 @@ label {
     margin-left: 150px;
     font-weight: bold;
     color: rgb(46, 2, 88);
-    text-shadow: 5px 5px 10px darkgreen, -5px -5px 10px darkslateblue;
 }
 
 .skill-bar .bar{
@@ -423,8 +446,9 @@ label {
     position: relative;
     border-radius: 25px;
     margin-top: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-left: 150px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 .persen {
@@ -437,6 +461,11 @@ label {
     position: absolute;
     background-color:aqua;
     border-radius: 25px;
+    
+}
+
+.bar:hover {
+    box-shadow: 0 14px 28px rgba(2, 81, 146, 0.884), 0 10px 10px rgba(2, 124, 67, 0.925);
 }
 
 .skill-bar .bar .html {
